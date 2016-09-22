@@ -1,0 +1,48 @@
+/*
+color:
+secondary-color         :#0b91e5;
+Secondary-dark-color    :#0a4366;
+nutral-color            :#a6a411;
+primary-color           :#990000;
+primary-dark-color      :#4c0808;
+
+*/
+
+#header {
+    background-color: #990000;
+    color: #fff;
+    height: 100px;
+}
+
+#header .text-muted {
+    color: indianred;
+}
+
+li {}
+
+
+/*Fixing Nav items*/
+
+.nav-pills > li > a {
+    border-radius: 0;
+    height: 100px;
+    padding: 0 25px;
+    font-size: 24px;
+    line-height: 100px;
+    color: #fff;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    background-color: #337ab7;
+    border-radius: 0;
+    height: 100px;
+    padding: 0 25px;
+    font-size: 24px;
+    line-height: 100px;
+}
+
+.nav-pills > li.active > a:hover {
+    color: #0a4366;
+}
