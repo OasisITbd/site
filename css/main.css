@@ -93,12 +93,90 @@ primary-dark-color      :#4c0808;
 
 #footer {
     background: #0b91e5;
+    padding-top: 50px;
+    color: #fff;
+}
+
+#footer .logo {
+    margin-bottom: 20px;
+}
+
+#footer .logo+p {
+    color: #fff;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#footer h4 {
+    font-size: 24px;
+    margin: 15px 0;
+    padding-bottom: 20px;
+    color: #0a4366;
 }
 
 #footer-btm {
-    background:#0a4366;
+    background-color: #0a4366;
     text-align: center;
     color: #fff;
     height: 50px;
     line-height: 50px;
+}
+
+ul#quick-links,
+ul#social-icon {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+}
+
+ul#social-icon {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+ul#quick-links li>a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 36px;
+}
+
+ul#quick-links li>a:hover {
+    color: #0a4366;
+}
+
+#quick-links i {
+    padding-right: 5px;
+}
+
+#social-icon li {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 5px;
+}
+
+#social-icon li>a:link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #0a4366;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #0a4366;
+    color: #0b91e5;
+    font-size: 18px;
+}
+
+#social-icon li>a:hover {
+    background-color: #fff;
+    border-color: #0a4366;
+    color: #0a4366;
+}
+
+address {
+    display: block;
 }
