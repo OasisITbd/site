@@ -1,4 +1,4 @@
-/*
+        /*
 color:
 secondary-color         :#0b91e5;
 Secondary-dark-color    :#0a4366;
@@ -8,196 +8,227 @@ primary-dark-color      :#4c0808;
 
 */
 
-
-/* Adding Font
+        .border {
+            border: 1px solid red;
+        }
+        /* Adding Font
     font-family: 'Lato', sans-serif;
     font-family: 'Libre Baskerville', serif;
 */
 
-body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-}
+        body {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+        }
 
-#header {
-    background-color: #990000;
-    color: #fff;
-    height: 100px;
-}
+        #header {
+            background-color: #990000;
+            color: #fff;
+            height: 100px;
+        }
 
-#header .text-muted {
-    color: indianred;
-}
+        #header .text-muted {
+            color: indianred;
+        }
+        /*Fixing Nav items*/
 
+        .nav-pills > li > a {
+            border-radius: 0;
+            height: 100px;
+            padding: 0 25px;
+            font-size: 24px;
+            line-height: 100px;
+            color: #fff;
+        }
 
-/*Fixing Nav items*/
+        .nav-pills > li.active > a,
+        .nav-pills > li.active > a:hover,
+        .nav-pills > li.active > a:focus {
+            background-color: #337ab7;
+            border-radius: 0;
+            height: 100px;
+            padding: 0 25px;
+            font-size: 24px;
+            line-height: 100px;
+        }
 
-.nav-pills > li > a {
-    border-radius: 0;
-    height: 100px;
-    padding: 0 25px;
-    font-size: 24px;
-    line-height: 100px;
-    color: #fff;
-}
+        .nav-pills > li.active > a:hover {
+            color: #0a4366;
+        }
 
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-    background-color: #337ab7;
-    border-radius: 0;
-    height: 100px;
-    padding: 0 25px;
-    font-size: 24px;
-    line-height: 100px;
-}
+        #services {
+            background: #0a4366;
+            padding-top: 90px;
+            padding-bottom: 135px;
+        }
 
-.nav-pills > li.active > a:hover {
-    color: #0a4366;
-}
+        #services h2 {
+            text-align: center;
+            color: #0b91e5;
+            border-bottom: 2px solid;
+            display: table;
+            margin: 0 auto 75px;
+            font-size: 48px;
+            font-family: 'Libre Baskerville', serif;
+        }
 
-#services {
-    background: #0a4366;
-    padding-top: 90px;
-    padding-bottom: 135px;
-}
+        #services p {
+            background: #0b91e5;
+            height: 276px;
+            width: 276px;
+            border-radius: 50%;
+            font-size: 175px;
+            line-height: 276px;
+            color: #fff;
+            text-align: center;
+            margin: 0 auto;
+        }
 
-#services h2 {
-    text-align: center;
-    color: #0b91e5;
-    border-bottom: 2px solid;
-    display: table;
-    margin: 0 auto 75px;
-    font-size: 48px;
-    font-family: 'Libre Baskerville', serif;
-}
+        #services h3 {
+            text-align: center;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 700;
+        }
 
-#services p {
-    background: #0b91e5;
-    height: 276px;
-    width: 276px;
-    border-radius: 50%;
-    font-size: 175px;
-    line-height: 276px;
-    color: #fff;
-    text-align: center;
-    margin: 0 auto;
-}
+        #services .item:hover {
+            cursor: pointer;
+        }
 
-#services h3 {
-    text-align: center;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 700;
-}
+        #services .item:hover p i {
+            color: #0a4366;
+        }
 
-#services .item:hover {
-    cursor: pointer;
-}
+        #services .item:hover h3 {
+            color: #0b91e5;
+        }
 
-#services .item:hover p i {
-    color: #0a4366;
-}
+        #footer {
+            background: #0b91e5;
+            padding-top: 50px;
+            color: #fff;
+        }
 
-#services .item:hover h3 {
-    color: #0b91e5;
-}
+        #footer .logo {
+            margin-bottom: 15px;
+        }
 
-#footer {
-    background: #0b91e5;
-    padding-top: 50px;
-    color: #fff;
-}
+        #footer .logo+p {
+            color: #fff;
+            line-height: 30px;
+            font-size: 18px;
+            font-weight: 300;
+        }
 
-#footer .logo {
-    margin-bottom: 15px;
-}
+        #footer h4 {
+            font-size: 24px;
+            margin: 15px 0;
+            padding-bottom: 15px;
+            color: #0a4366;
+            font-family: 'Libre Baskerville', serif;
+        }
 
-#footer .logo+p {
-    color: #fff;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: 300;
-}
+        #footer-btm {
+            background-color: #0a4366;
+            text-align: center;
+            color: #fff;
+            height: 50px;
+            line-height: 50px;
+        }
 
-#footer h4 {
-    font-size: 24px;
-    margin: 15px 0;
-    padding-bottom: 15px;
-    color: #0a4366;
-    font-family: 'Libre Baskerville', serif;
-}
+        ul#quick-links,
+        ul#social-icon {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            clear: both;
+        }
 
-#footer-btm {
-    background-color: #0a4366;
-    text-align: center;
-    color: #fff;
-    height: 50px;
-    line-height: 50px;
-}
+        ul#social-icon {
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
 
-ul#quick-links,
-ul#social-icon {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    clear: both;
-}
+        ul#quick-links li>a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 36px;
+        }
 
-ul#social-icon {
-    overflow: hidden;
-    margin-bottom: 15px;
-}
+        ul#quick-links li>a:hover {
+            color: #0a4366;
+        }
 
-ul#quick-links li>a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 36px;
-}
+        #quick-links i {
+            padding-right: 5px;
+        }
 
-ul#quick-links li>a:hover {
-    color: #0a4366;
-}
+        #social-icon li {
+            width: 32px;
+            height: 32px;
+            float: left;
+            margin-right: 5px;
+        }
 
-#quick-links i {
-    padding-right: 5px;
-}
+        #social-icon li>a:link {
+            display: block;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            background-color: #0a4366;
+            border-radius: 50%;
+            text-align: center;
+            border: 2px solid #0a4366;
+            color: #0b91e5;
+            font-size: 18px;
+        }
 
-#social-icon li {
-    width: 32px;
-    height: 32px;
-    float: left;
-    margin-right: 5px;
-}
+        #social-icon li>a:hover {
+            background-color: #fff;
+            border-color: #0a4366;
+            color: #0a4366;
+        }
 
-#social-icon li>a:link {
-    display: block;
-    width: 32px;
-    height: 32px;
-    line-height: 32px;
-    background-color: #0a4366;
-    border-radius: 50%;
-    text-align: center;
-    border: 2px solid #0a4366;
-    color: #0b91e5;
-    font-size: 18px;
-}
+        address {
+            display: block;
+            font-size: 16px;
+        }
 
-#social-icon li>a:hover {
-    background-color: #fff;
-    border-color: #0a4366;
-    color: #0a4366;
-}
+        .copyright {
+            font-weight: 300;
+            font-size: 16px;
+            color: #0b91e5;
+        }
 
-address {
-    display: block;
-    font-size: 16px;
-}
+        #slider {
+            padding-top: 170px;
+            padding-bottom: 170px;
+        }
 
-.copyright {
-    font-weight: 300;
-    font-size: 16px;
-    color: #0b91e5;
-}
+        #slider h1 {
+            margin: 0;
+            font-size: 30px;
+            font-family: 'Libre Baskerville', serif;
+            font-weight: 700;
+            color: #0a4366;
+            padding-bottom: 40px
+        }
+
+        #slider h1+p.sub-heading {
+            color: #0b91e5;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        #slider p {
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+        #slider .container {
+            background-image: url(../images/webdesign.png);
+            background-repeat: no-repeat;
+            background-position: 0;
+        }
