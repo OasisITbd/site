@@ -90,3 +90,15 @@ primary-dark-color      :#4c0808;
 #services .item:hover h3 {
     color: #0b91e5;
 }
+
+#footer {
+    background: #0b91e5;
+}
+
+#footer-btm {
+    background:#0a4366;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
