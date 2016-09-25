@@ -8,6 +8,13 @@ primary-dark-color      :#4c0808;
 
 */
 
+
+/* Adding Font*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 #header {
     background-color: #990000;
     color: #fff;
