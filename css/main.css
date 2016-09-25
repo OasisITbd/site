@@ -18,8 +18,6 @@ primary-dark-color      :#4c0808;
     color: indianred;
 }
 
-li {}
-
 
 /*Fixing Nav items*/
 
@@ -79,6 +77,10 @@ li {}
     color: #fff;
     font-size: 30px;
     font-family: sans-serif;
+}
+
+#services .item:hover {
+    cursor: pointer;
 }
 
 #services .item:hover p i {
